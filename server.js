@@ -23,6 +23,7 @@ io.on("connection", (socket) => {
     });
 });
 
+
 server.listen(PORT, "0.0.0.0", () => {
-    console.log("Communication App is running at http://localhost:" + PORT);
+    console.log("Communication App is running on port " + PORT);
 });
